@@ -1,0 +1,495 @@
+section{
+     margin: 20px 0px;
+     font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.alert-light {
+     font-weight: bolder;
+     font-size: xx-large;
+     color: black;
+     text-align: center;
+     
+} 
+
+.card{
+     height:12rem;
+     margin: 20px 0px;
+      
+}  
+
+.card-body{
+  text-align: center;
+  background-color: 8cb3ff;
+
+}
+
+.fa-2x.fa3{
+   border-radius: 50%;
+  padding: 15px;
+  background-color:#00BFFF
+
+  
+}
+.card-title {
+    
+     margin-top: 20px;
+ }
+ 
+.jumbotron-fluid {
+     background-color:#00BFFF;
+     margin: 50px 0px;
+ }
+
+.card.card2{ 
+     background-color:#00BFFF;
+     border: 0px;
+} 
+.alert-light.alert2{
+     background-color:#00BFFF;
+     border: 0px;
+} 
+
+.card-text.card-text2{
+     
+     font-size: large;
+     color: white;
+ }
+
+.card-title.card-title2{
+     font-size: xxx-large;
+     color: white;
+}
+
+.card-img-top{ 
+     width: 100%;
+     height: 15vw;
+     object-fit: cover;
+      
+}
+.card3{
+     width: 23rem;
+     height: 18rem;
+     border: 0px;
+}
+.card-text.text3{
+     font-weight: bold;
+}
+
+.card.card4{
+     height: 40rem;
+     border-radius: 35px; 
+}
+
+.card.card4.card41{
+     background-color:#00BFFF;
+
+}
+.card.card4.card42{
+    background-color: #c6c6c6;
+}
+
+.list-group{
+     text-align: center;
+    
+} 
+.list-group-item{
+     border: 0px;
+     
+}
+.list-group.list1{
+     background-color:#00BFFF; 
+}
+.list-group-item.item1{
+     background-color: #c6c6c6;
+
+}
+.list-group-item.item2{
+     background-color:#00BFFF;     
+}
+.card-body.card4{
+     margin-top: 30px;
+}
+.card-text.text1{
+     font-size: xx-large;
+      
+}
+.card-title.title4{
+     color: cornsilk;
+    font-size: xx-large;
+}
+ 
+.btn btn-light btn-lg.button4{
+     border-radius: 50px;
+} 
+
+.btn:not(:disabled):not(.disabled) {
+
+     border-radius: 50px;
+     width: 180px;
+}
+.form-control{
+     margin-top: 20px;
+} 
+.form-control.form1{
+     background-color:#f8f8f8; 
+     border-radius: 20px;
+}
+.btn:not(:disabled):not(.disabled).button11{
+   width: 100%;
+  background-color:dodgerblue; 
+   border:0px;
+   margin-top:15px;
+}
+
+.fa-2x.fa{
+     color: dodgerblue;
+}
+.card.card6{
+border:0px
+}
+.list-group-item.list6{
+     padding:5px 0px;
+}
+
+.testimonial{
+     background: url("../images/1.jpg"); 
+    height: 560px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonial1{
+     background: url("../images/10.jpg" );
+    height: 560px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay {
+     display: block;
+     height: 560px;
+     background: #272a2b82;
+     width: 100%;
+ }
+
+.text-testimonial{
+font-size: 39px;
+color: #fff;
+text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 50px;
+}
+
+.text-testimonial.text-second{
+     font-size: 20px;
+     margin: 0 0 30px;
+     text-transform: capitalize;
+}
+
+#avatar {
+     background-image: url('../images/11.jpg');
+     width: 100px;
+     height: 100px;
+     background-size: cover;
+     background-position: top center;
+     border-radius: 50%;
+     margin: 0 auto;
+ }
+
+ .testimonialDiv{
+     padding: 50px 250px;
+ }
+
+.text-third{
+     font-size: 16px;
+     padding: 5px 0;
+}
+
+.text-testimonial.text-third.text-blue{
+     color: blue;
+     font-size: 12px;
+}
+
+.testimonial.goals{
+     background-image: url("../images/9.jpg");
+}
+
+.coaching{
+     color: #fff;
+    font-family: oswald,Sans-serif;
+    font-size: 58px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.coaching.achive{
+     color: #52a7fe;
+    font-size: 100px;
+}
+
+.testimonialDiv.goalDiv{
+     padding: 0 0px;
+     text-align: right;
+}
+
+.textpara{
+     font-size: 15px;
+     color: #fff;
+     text-transform: capitalize;
+}
+
+ 
+.alert.footer-alert {
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-color: #5b5b5f;
+}
+.overlay.new{
+     padding: 220px 50px;
+}
+
+/***************   HEADER CSS ***************************/
+
+
+.miniHeader{
+background-color: #52a7ff;
+height: 45px;
+display: flex;
+align-items: center;
+flex-direction: row;
+position: sticky;
+top: 0px;
+margin-bottom: 0px;
+justify-content: center;
+align-items: center;
+}
+
+.mainDivHead{
+     height: 64px;
+    display: flex;
+    z-index: 9999999;
+    background-color: grey;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHeader{
+     display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+     list-style-type: none;
+    font-size: 13px;
+    color: #fff;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+.logo{
+     font-size: 30px;
+     color: #fff;
+     text-align: center;
+}
+
+.mainBanner{
+     background-image: url("../images/5.jpg");
+     height: 700px;
+     width: 100%;
+     text-align: center;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+.mainhead{
+     background-image: url("../images/5.jpg");
+     height: 700px;
+     width: 100%;
+     text-align: center;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+.overlay.newtwo{
+     height: 700px;
+}
+
+.sport{
+     color: #52a7fe;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.prof{
+     color: #fff;
+     font-size: 80px;
+     font-weight: 700;
+     text-transform: uppercase;
+     letter-spacing: 1px
+}
+
+.coach{
+     color: #ddd;
+    font-family: roboto,Sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.mainpara{
+     color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.mt0{
+     margin-top: 0px;
+}
+
+.phone{
+     font-size: 13px;
+     color: #fff;
+}
+
+.days{
+     font-size: 13px;
+     color: #fff;
+}
+
+.logos{
+     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 102px;
+}
+
+i.fab.fa-twitter.fa-xs {
+     font-size: 14px;
+}
+i.fab.fa-facebook-square.fa-xs{
+     font-size: 14px;
+}
+i.fab.fa-instagram-square.fa-xs{
+     font-size: 14px;
+}
+i.fab.fa-linkedin.fa-xs{
+     font-size: 14px;
+}
+i.fas.fa-ad.fa-xs{
+     font-size: 14px;
+}
+i.fas.fa-phone-alt.fa-xs{
+     font-size: 14px;
+     padding: 0px 10px;
+     color: black;
+}
+i.far.fa-clock.fa-xs{
+     font-size: 14px;
+     padding: 0px 10px;
+     color: black;
+}
+
+.nav{
+color: #fff;
+text-decoration-style: none;
+}
+
+.nav:hover{
+     color: #007bff;
+     text-decoration-style: none !important;
+}
+
+.nav.co{
+     color: #fff;
+     justify-content: center;
+     text-decoration-style: none;
+}
+.nav.co:hover{
+     color: #007bff;
+     text-decoration-style: none;
+}
+
+li.list-group-item.color{
+     color: black;
+}
+
+.appoint{
+     font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-style: none;
+    fill: #fff;
+    margin-top: 40px;
+    color: #fff;
+    background-color: #52a7fe;
+    border-radius: 50px 50px 50px 50px;
+    padding: 12px 40px;
+}
+
+.appoint:hover{
+ background-color: #fff;
+ color: #52a7fe;
+}
+
+
+@media only screen and (max-width: 768px) {
+     /* For mobile phones: */
+     body{
+          width: 100%;
+          display: grid;
+     }
+     .testimonialDiv{
+          padding: 0px;
+          padding-top: 117px;
+     }
+     .coaching.achive{
+          font-size: 45px;
+     }
+     .coaching{
+          font-size: 30px;
+     }
+     .testimonial{
+          background-position: 45%;
+     }
+     .card-img-top{
+          height: 116vw;
+     }
+     .card3{
+          width: 35rem;
+          height: 30rem;
+     }
+     .card{
+          margin: 20px 40px;
+     }
+   }
+
+   @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+     .card-img-top{
+          width: 80%;
+     }
+     .coaching{
+          font-size: 40px;
+     }
+     .coaching.achive{
+          font-size: 64px;
+     }
+     .testimonial{
+          background-position: 50%;
+     }
+
+   } 
