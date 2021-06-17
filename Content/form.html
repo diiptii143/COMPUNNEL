@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles\bootstrap.min.css" >
+    <link rel="stylesheet" href="styles\mystyle.css">
+     
+
+
+
+</head>
+
+<body>
+
+ <header> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home </a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="list.html">List Demo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table.html">Table Demo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Form Demo</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+
+ 
+     
+    </nav>
+</header>
+    <div class="container">
+        <div class="card border-light">
+            <div class="card-header">Sign Up</div>
+            <div class="card-body">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputName">First Name</label>
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputName">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Last">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-3">
+                            <label for="inputName">City</label>
+                            <select name="city" id="city">
+                                <option value="FBD">Select</option>
+                                <option value="OA">Saab</option>
+                                <option value="USD">Mercedes</option>
+                                <option value="MIA">Audi</option>
+                              </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputName">State</label>
+                            <select name="city" id="city">
+                                <option value="FBD">Select</option>
+                                <option value="OA">Saab</option>
+                                <option value="USD">Mercedes</option>
+                                <option value="MIA">Audi</option>
+                              </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputName">Country</label>
+                            <select name="city" id="city">
+                                <option value="FBD">Select</option>
+                                <option value="OA">Saab</option>
+                                <option value="USD">Mercedes</option>
+                                <option value="MIA">Audi</option>
+                              </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputName">Postal Code</label>
+                            <select name="city" id="city">
+                                <option value="FBD">Select</option>
+                                <option value="OA">Saab</option>
+                                <option value="USD">Mercedes</option>
+                                <option value="MIA">Audi</option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="examformcontrolarea ">Color</label>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exradio"
+                                            id="exradio1" value="option1">
+                                        <label class="form-check-label" for="exradio1">
+                                            Blue
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exradio"
+                                            id="exradio2" value="option2">
+                                        <label class="form-check-label" for="exradio2">
+                                            Red
+                                        </label>
+                                    </div>
+                                    <div class="form-check disabled">
+                                        <input class="form-check-input" type="radio" name="exradio"
+                                            id="exradio3" value="option3" disabled>
+                                        <label class="form-check-label" for="exradio3">
+                                            Green(Disabled)
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="def- 1">
+                                        <label class="form-check-label" for="def- 1">
+                                            Pale
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="def- 2" disabled>
+                                        <label class="form-check-label" for="def- 2">
+                                            Blue(Disabled)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="def- 1">
+                                        <label class="form-check-label" for="def- 1">
+                                            Brown
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="examformcontrolarea ">Message</label>
+                            <textarea class="form-control" id="examformcontrolarea " rows="3"></textarea>
+                            <small id="messageHelp" class="form-text text-muted">Add the packaging note here.</small>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="examformcontrolarea " class="col-sm-2 col-form-label">Date Assigned</label>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" placeholder="">
+                        </div>
+                    </div>
+                     
+                    <div class="form-row">
+                        <div class="form-group col-md-6 offset-md-5" id="buttonid23">
+                            <button type="button" class="btn btn-secondary">Cancell</button>
+                            <button class="btn btn-primary" type="submit">Saved</button>
+                        </div>
+ 
+                    </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    </div>
+     
+ </div>
+</div>
+<footer>  
+    <div class="card bg-dark text-white  fixed-bottom mb-0 ">
+        <div class="card-body" id=c1>Compunnel Inc @ 2021 </div>
+    </div>
+    </footer>
+
+    <script src="scripts\jquery-3.2.1.slim.min.js"></script>
+    <script src="scripts\popper.min.js"></script>
+    <script src="scripts\bootstrap.min.js "></script>
+</body>
+
+</html>
