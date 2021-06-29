@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+   
+</head>
+<body>
+  <div id="container">
+    </div>
+    <script> 
+    let container = document.getElementById("container");
+        container.innerText = "Hello World"; 
+  </script>
+</body>
+</html>
+
+
+
+
+
+<!-- There are two common causes of this error:
+
+Placing a script before an element appears on the web page
+Referencing the wrong element ID. -->
+
+<!-- This is a problem because without using an onload() function,
+  we can only select elements that come before our <script>. -->
