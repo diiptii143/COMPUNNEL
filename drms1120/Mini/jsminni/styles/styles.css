@@ -1,0 +1,29 @@
+div {
+    margin: 10px 0px;
+}
+
+
+form {
+    margin-left: 30%;
+}
+
+form div {
+    padding: 2px;
+}
+
+td {
+    height: 27px;
+    width: 92px;
+}
+
+.country {
+    margin: 40px 10px;
+}
+
+select {
+    margin: 10px 20px;
+}
+
+.wrapname {
+    display: flex;
+}
