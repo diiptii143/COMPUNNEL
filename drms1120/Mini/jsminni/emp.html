@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,6 +10,8 @@
 </head>
 
   <body onload="display()"> 
+     
+
     <span>  
     <input type="text" name="search" id="search" placeholder="Search..." />  </span>
     
@@ -20,14 +22,16 @@
         <option value="HR">HR</option>
 </select>
  
- 
 <div>
     <p> <strong>Employee Data </strong></p>
     <div id="cntr">
     </div>
   </div> 
 
-   
+  <input type='hidden' id='current_page' />
+    <input type='hidden' id='show_per_page' />
+    <div id='page_navigation'>
+    </div> 
   <script src="../jsminni/scripts/jquery-3.2.1.slim.min.js"></script>
   <script src="../jsminni/scripts/bootstrap.min.js"></script>
   <script src="../jsminni/scripts/popper.min.js"></script>
