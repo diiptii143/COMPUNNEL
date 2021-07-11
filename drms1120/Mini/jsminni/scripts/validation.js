@@ -440,7 +440,8 @@ function validation() {
       JobTitle: jobTitles,
       JobStart: jobStart,
       Educations: allEducation,
-      Skills: allSkill
+      Skills: allSkill,
+      index: users.length
 
     };
 

@@ -12,13 +12,15 @@ function display() {
         html = '';
 
     html = '<table border="1" id ="myTable" style="border-collapse:collapse;">';
-    html += '<tr><td>Name </td>';
-    html += '<td>Address</td>';
-    html += '<td>Contact</td>';
-    html += '<td>JobTitle</td>';
-    html += '<td>JobStart</td>';
-    html += '<td>Skills</td>';
-    html += '<td>Educations</td></tr>';
+    html += '<tr><th>Name </th>';
+    html += '<th>Address</th>';
+    html += '<th>Contact</th>';
+    html += '<th>JobTitle</th>';
+
+    html += '<th data-column="JobStart" data-order="desc">JobStart</th>';
+    html += '<th>Skills</th>';
+    html += '<th>Educations</th>';
+    html += '<th>Actions</th></tr>';
 
 
     for (var i = 0; i < len; i++) {
@@ -30,17 +32,19 @@ function display() {
         html += '<td>' + resp[i].JobStart + '</td>';
         html += '<td>' + resp[i].Skills + '</td>';
         html += '<td>' + resp[i].Educations + '</td>';
+        html += '<td> <button class= "btnDel" id = "${i}" > Delete </button </td>';
         html += '</tr>';
 
         html += '</tr>';
     }
 
     document.querySelector("#cntr").innerHTML = html;
+
     
-    
+ 
     var searchInput = document.getElementById("search");
     var rows = document.querySelectorAll("tbody tr");
-    console.log(rows);
+    // console.log(rows);
     searchInput.addEventListener("keyup", function (event) {
       var q = event.target.value.toLowerCase();
       rows.forEach((row) => {
@@ -56,8 +60,32 @@ function display() {
             SearchData(title)
         });
 
+
+//   $('.btnDel').click(function(event) {
+//             console.log(event.target);
+           
+//             // event.target.parentElement.parentElement.remove();
+         
+  
+//     });   
+ 
+ 
+    $('.btnDel').click(function() {
+      var rowId =$(this).closest('td').parent()[0].sectionRowIndex;
+        console.log(rowId);
+        const details = JSON.parse(localStorage.getItem('details'));
+        // console.log(details);
+        const filtered = details.filter(item => item.index!==  rowId );
+        localStorage.setItem('details', JSON.stringify(filtered));
+         }); 
  
 
+
+        $('th').on('click', function(){
+            console.log('clicked');
+        });
+
+    
     function SearchData(title) {
         if (title.toUpperCase() == 'ALL') {
             $('#myTable tbody tr').show();
@@ -144,9 +172,34 @@ function display() {
                     new_page = parseInt($('#current_page').val()) - 1;
                     $('#current_page').val(new_page);
                     showPage(new_page);
-              }
-     
-}
-
+                }
  
+
+             $('th').on('click', function(){
+                var column = $(this).data('column')
+                var order = $(this).data('order')
+                console.log(column,order);
+          
+                var text = $(this).html()
+                text = text.substring(0, text.length - 1)
+        
+                if(order == 'desc'){
+                    $(this).data('order', "asc")
+                    myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)
+                    text += '&#9660'
+        
+                }else{
+                    $(this).data('order', "desc")
+                    myArray = myArray.sort((a,b) => a[column] < b[column] ? 1 : -1)
+                    text += '&#9650'
+        
+                }
+                $(this).html(text)
+         
+            })
+        
+        
+          
+
+}
  
